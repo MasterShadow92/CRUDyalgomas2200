@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">crudyalgomas</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps1">MapsActivity1</string>
+</resources>

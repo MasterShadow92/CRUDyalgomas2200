@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CRUDOperation.NoActionBar"
+        tools:targetApi="31">
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCV2iW4tNQSpYN0pKpYSU9SZYxPVkjib_U" />
+
+
+        <activity
+            android:name="com.androidwithshiv.crudyalgomas.ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.androidwithshiv.crudyalgomas.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.androidwithshiv.crudyalgomas.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.androidwithshiv.crudyalgomas.MainActivity"
+            android:exported="false" />
+
+
+    </application>
+
+</manifest>
+
